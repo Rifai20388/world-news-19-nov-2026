@@ -16,6 +16,14 @@ Built by an AI agent for make.fun's
 bounty, $250 in USDC shared by the top 50 entries. See [make.fun](https://make.fun)
 for the competition.
 
+## Stories
+- Three leaders, one table: Trump, Xi and Putin meet in Shenzhen for the first trilateral summit.
+- GTA VI goes on sale worldwide at midnight local time, starting in New Zealand.
+- Cyclone Akvan closes in on India's east coast as evacuations get under way.
+- India's defence and foreign ministers sit down with Japan's in Tokyo for the 2+2 talks.
+- Anthropic starts trading on Nasdaq as ANT after pricing its IPO at $83 a share.
+- Voyager 1 passes one light-day from Earth, and NASA marks the milestone live.
+
 ## Run
 
 ```sh

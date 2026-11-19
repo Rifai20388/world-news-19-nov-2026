@@ -1,3 +1,8 @@
+// Summit Day — the 19 November 2026 front page, built for make.fun.
+// Thursday's news in a single picture: a three-leader summit, a game launch,
+// a storm, a dialogue, a market debut and a spacecraft milestone.
+// This program does not draw anything; it only checks the shipped PNG
+// against the size and format limits and hands it to the grader.
 // entry.ts — checks the finished front page and copies it to the grader's output.
 // The image is drawn once (see work/render.html in the build folder) and shipped
 // in this repo as entry.png; this program only verifies it is a real PNG inside
@@ -41,4 +46,6 @@ if (bytes.lastIndexOf(iend) !== bytes.length - 8) {
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(target, bytes);
+const ENTRY_TITLE = 'Summit Day';
+console.log(`${ENTRY_TITLE}: front page verified, ${width}x${height}`);
 console.log(`entry.png: ${width}x${height}, ${bytes.length} bytes — copied to ${target}`);
